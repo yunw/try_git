@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SM_thread Module
+Bundle-SymbolicName: SM_thread
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: TIBCO Software Inc.
+Export-Package: com.qa.test.tibco
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+TIBCO-BW-SharedModule: META-INF/module.bwm
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)"
+Provide-Capability: com.tibco.bw.module; name="SM_thread"; version:Version="1.0.0"
+TIBCO-BW-ConfigProfile: META-INF/default.substvar

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype" xmlns:ptyp="http://www.example.org/Caculators/" xmlns:tns="http://www.example.org/Caculators/CaculatorsPLT" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Caculators/CaculatorsPLT">
+  <plnk:partnerLinkType name="CaculatorsPLT">
+    <plnk:role name="use" portType="ptyp:Caculator"/>
+  </plnk:partnerLinkType>
+  <wsdl:import location="../Service%20Descriptors/Caculators.wsdl" namespace="http://www.example.org/Caculators/"/>
+</wsdl:definitions>
